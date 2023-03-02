@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- JNLP File for TextPrompt -->
+
+<jnlp spec="1.0+"
+    codebase="http://www.camick.com/java/webstart/"
+    href="TextPrompt.jnlp">
+    <information>
+        <title>TextPrompt Test</title>
+        <vendor>Tips4Java</vendor>
+        <homepage href="http://tips4java.wordpress.com/"/>
+        <description>TextPrompt Test</description>
+        <description kind="short">Test showing usage of the TextPrompt</description>
+        <offline-allowed/>
+    </information>
+    <resources>
+	    <j2se version="1.6+"/>
+   	    <jar href="TextPrompt.jar"/>
+    </resources>
+    <application-desc main-class="TextPromptTest"/>
+</jnlp>
